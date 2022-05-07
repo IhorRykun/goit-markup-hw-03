@@ -20,6 +20,7 @@ body {
   background-color: var(--milk-cl);
 }
 
+/* Атрибути головного контейнеру сайту */
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -41,6 +42,7 @@ ul {
   padding: 0;
 }
 
+/* хедер */
 .header {
   background-color: var(--white-cl);
 }
@@ -50,6 +52,46 @@ ul {
   color: var(--blue-cl);
 }
 
+.header-navigation {
+  display: flex;
+}
+
+.header-navigation .site-nav+.site-nav {
+  margin-left: 50px;
+}
+
+.site-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mail-nav .site-nav+.site-nav {
+  margin-left: 50px;
+}
+
+.mail-nav {
+  margin-left: auto;
+}
+
+
+.navigation {
+  align-items: center;
+  display: flex;
+}
+
+.container-nav {
+  align-items: center;
+  display: flex;
+}
+
+.header-navigation a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mail-nav {
+  display: flex;
+}
 
 /* Логотип компанії */
 .logo {
@@ -91,48 +133,6 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--black-cl);
-}
-
-.header-navigation {
-  display: flex;
-}
-
-.header-navigation .site-nav+.site-nav {
-  margin-left: 50px;
-}
-
-.site-nav {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.mail-nav .site-nav+.site-nav {
-  margin-left: 50px;
-}
-
-.mail-nav {
-  margin-left: auto;
-}
-
-
-
-.navigation {
-  align-items: center;
-  display: flex;
-}
-
-.container-nav {
-  align-items: center;
-  display: flex;
-}
-
-.header-navigation a {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
-.mail-nav {
-  display: flex;
 }
 
 ul {
