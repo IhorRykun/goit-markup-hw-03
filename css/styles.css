@@ -29,6 +29,18 @@ body {
   outline: 2px solid red;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background-color: var(--white-cl);
 }
@@ -114,6 +126,12 @@ ul {
 }
 
 .main-title {
+  width: 696px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -126,6 +144,7 @@ ul {
 /* конопка мейна */
 
 .main-btn {
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -136,6 +155,8 @@ ul {
   color: var(--white-cl);
   background-color: var(--blue-cl);
 }
+
+
 
 .main-btn:hover,
 .main-btn:focus,
