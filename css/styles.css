@@ -147,8 +147,6 @@ ul {
   display: flex;
   justify-content: space-around;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-top: auto;
 }
 
 .main-btn {
