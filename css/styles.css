@@ -58,7 +58,7 @@ ul {
   color: var(--blue-cl);
 }
 
-.list {
+.list-fl {
   display: flex;
 }
 
