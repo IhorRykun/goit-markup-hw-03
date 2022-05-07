@@ -144,12 +144,14 @@ ul {
 /* конопка мейна */
 
 .main-btn {
+  margin-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-cl);
