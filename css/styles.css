@@ -45,8 +45,21 @@ ul {
   background-color: var(--white-cl);
 }
 
+.list-force-flex {
+  display: flex;
+}
+
+.conteiner-header {
+  display: flex;
+  align-items: center;
+}
+
 .list-force .carent {
   color: var(--blue-cl);
+}
+
+.list {
+  display: flex;
 }
 
 /* Логотип компанії */
