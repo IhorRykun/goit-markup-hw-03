@@ -53,6 +53,8 @@ ul {
 
 /* Логотип компанії */
 .logo {
+  margin-right: 93px;
+
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
@@ -79,7 +81,7 @@ ul {
   color: var(--blue-cl);
 }
 
-/* Силки конаткту навігації */
+/* Силки конатків навігації */
 
 .list-force a {
   font-style: normal;
@@ -89,6 +91,48 @@ ul {
   letter-spacing: 0.02em;
 
   color: var(--black-cl);
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-navigation .site-nav+.site-nav {
+  margin-left: 50px;
+}
+
+.site-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mail-nav .site-nav+.site-nav {
+  margin-left: 50px;
+}
+
+.mail-nav {
+  margin-left: auto;
+}
+
+
+
+.navigation {
+  align-items: center;
+  display: flex;
+}
+
+.container-nav {
+  align-items: center;
+  display: flex;
+}
+
+.header-navigation a {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.mail-nav {
+  display: flex;
 }
 
 ul {
