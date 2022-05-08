@@ -247,6 +247,7 @@ ul {
 
 /* Наші послуги */
 .poslygi-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -326,6 +327,15 @@ ul {
 
 .list a {
   text-decoration: none;
+}
+
+.list-flex {
+  padding-bottom: 94px;
+  display: flex;
+}
+
+.list-flex .list-li+.list-li {
+  margin-left: 30px;
 }
 
 .lst-portfolio a:focus {
