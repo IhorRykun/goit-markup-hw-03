@@ -337,13 +337,21 @@ ul {
 
 .portfolio-container {
   display: block;
+  padding-bottom: 92px;
 }
 
 .list-itm-portfolio {
   display: flex;
+  outline: 2px solid green;
   margin-bottom: 50px;
   padding-top: 94px;
   justify-content: center;
+}
+
+.lst-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio-batn {
@@ -360,11 +368,6 @@ ul {
   text-decoration: none;
 }
 
-.list-flex {
-  padding-bottom: 94px;
-  display: flex;
-}
-
 .list-flex .list-li+.list-li {
   margin-left: 30px;
 }
@@ -374,6 +377,9 @@ ul {
 }
 
 .lst-portfolio-title {
+  margin-top: 20px;
+  padding-left: 24px;
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2.00;
@@ -386,6 +392,8 @@ ul {
 }
 
 .lst-paragraph {
+  padding-left: 24px;
+  margin-bottom: 50px;
   font-size: 16px;
   line-height: 1.88;
 }
