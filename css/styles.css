@@ -301,7 +301,7 @@ ul {
 }
 
 .img-itm {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 /* футер */
@@ -333,6 +333,7 @@ ul {
   color: var(--black-cl);
   background: #F5F4FA;
   border-radius: 4px;
+  border: none;
 }
 
 .portfolio-container {
@@ -373,6 +374,10 @@ ul {
 
 .list-flex {
   display: flex;
+}
+
+.list-flex {
+  padding-bottom: 94px;
 }
 
 .list-flex .list-li+.list-li {
