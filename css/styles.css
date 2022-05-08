@@ -77,13 +77,8 @@ ul {
   margin-left: auto;
 }
 
-
+.container-nav,
 .navigation {
-  align-items: center;
-  display: flex;
-}
-
-.container-nav {
   align-items: center;
   display: flex;
 }
@@ -318,6 +313,7 @@ ul {
 }
 
 /* сторінка портфоліо */
+
 .visual-hidden {
   transform: scale(0);
   position: fixed;
@@ -337,6 +333,19 @@ ul {
   color: var(--black-cl);
   background: #F5F4FA;
   border-radius: 4px;
+}
+
+.portfolio-container {
+  display: block;
+}
+
+.list-itm-portfolio {
+  display: flex;
+  margin-bottom: 34px;
+  padding-top: 94px;
+  padding-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .btn-portfolio:hover,
