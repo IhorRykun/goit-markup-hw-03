@@ -284,6 +284,7 @@ ul {
 }
 
 .cmd-user {
+  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -301,7 +302,9 @@ ul {
 }
 
 .img-itm {
-  margin-bottom: 30px;
+
+  max-width: 100%;
+  height: auto;
 }
 
 /* футер */
