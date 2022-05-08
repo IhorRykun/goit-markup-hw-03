@@ -47,6 +47,10 @@ ul {
   background-color: var(--white-cl);
 }
 
+.link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
 .list-force .carent {
   color: var(--blue-cl);
@@ -258,6 +262,9 @@ ul {
 
 /* наша команда */
 .cmd-title {
+  padding-top: 94px;
+  padding-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -275,6 +282,10 @@ ul {
   background-color: var(--white-cl);
 }
 
+.list .list-cmd+.list-cmd {
+  margin-left: 30px;
+}
+
 .cmd-user {
   font-weight: 500;
   font-size: 16px;
@@ -285,11 +296,18 @@ ul {
 }
 
 .cmd-prof {
+  padding-bottom: 30px;
+  margin-top: 10px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
+.img-itm {
+  padding-bottom: 30px;
+}
+
+/* футер */
 .address {
   text-decoration: none;
   font-style: normal;
@@ -365,7 +383,19 @@ ul {
   background-color: #2F303A;
 }
 
+.logo-footer {
+  color: var(--white-cl);
+}
+
+.logo-bootom {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
 .footer-contact {
+  padding-top: 9px;
+  padding-bottom: 9px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -373,4 +403,13 @@ ul {
 .footer-contact:focus,
 .footer-contact:hover {
   color: var(--blue-cl);
+}
+
+.footer-list {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.footer-telephone {
+  padding-bottom: 60px;
 }
