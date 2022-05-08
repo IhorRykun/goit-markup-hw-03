@@ -228,6 +228,23 @@ ul {
   color: var(--black-cl);
 }
 
+
+.list-specific {
+  display: flex;
+}
+
+.list-item {
+  display: block;
+  width: 270px;
+  padding-top: 94px;
+  padding-bottom: 93px;
+  /* margin-left: 30px; */
+}
+
+.list-specific .list-item+.list-item {
+  margin-left: 30px;
+}
+
 /* Наші послуги */
 .poslygi-title {
   font-weight: 700;
