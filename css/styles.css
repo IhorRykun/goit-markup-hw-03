@@ -22,7 +22,6 @@ body {
 
 /* Атрибути головного контейнеру сайту */
 .container {
-  outline: 2px solid green;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -81,6 +80,8 @@ ul {
 .navigation {
   align-items: center;
   display: flex;
+  border-bottom: 1px solid #ececec;
+
 }
 
 .header-navigation a {
