@@ -43,6 +43,7 @@ ul {
 
 /* хедер */
 .header {
+  border: 1px solid #ececec;
   background-color: var(--white-cl);
 }
 
@@ -80,8 +81,6 @@ ul {
 .navigation {
   align-items: center;
   display: flex;
-  border-bottom: 1px solid #ececec;
-
 }
 
 .header-navigation a {
@@ -448,10 +447,4 @@ ul {
 
 .footer-telephone {
   padding-bottom: 60px;
-}
-
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
