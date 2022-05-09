@@ -249,6 +249,11 @@ ul {
 }
 
 /* Наші послуги */
+
+.container-poslygi {
+  padding-bottom: 94px;
+}
+
 .poslygi-title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -260,9 +265,14 @@ ul {
 }
 
 /* наша команда */
-.cmd-title {
+
+.container-tim {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
+}
+
+.cmd-title {
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -286,7 +296,6 @@ ul {
 }
 
 .cmd-user {
-  margin-top: 30px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -296,15 +305,18 @@ ul {
 }
 
 .cmd-prof {
-  padding-bottom: 30px;
   margin-top: 10px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.img-itm {
+.tim-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
+.img-itm {
   max-width: 100%;
   height: auto;
 }
@@ -381,10 +393,6 @@ ul {
   display: flex;
 }
 
-.list-flex {
-  padding-bottom: 94px;
-}
-
 .list-flex .list-li+.list-li {
   margin-left: 30px;
 }
@@ -427,13 +435,11 @@ ul {
 
 .logo-bootom {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+
+  margin-bottom: 20px;
 }
 
 .footer-contact {
-  padding-top: 9px;
-  padding-bottom: 9px;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -444,10 +450,12 @@ ul {
 }
 
 .footer-list {
-  padding-top: 9px;
-  padding-bottom: 9px;
+  margin-top: 9px;
+  margin-bottom: 9px;
 }
 
-.footer-telephone {
+
+.container-footer {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
