@@ -167,16 +167,16 @@ ul {
 
 /* мейн-контент */
 .main-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2F303A;
 }
 
 .main-title {
   width: 696px;
-  padding-top: 200px;
   padding-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -191,11 +191,11 @@ ul {
 .conteiner-main-btn {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 200px;
 }
 
 .main-btn {
   width: 200px;
+  height: 50px;
 
   font-weight: 700;
   font-size: 16px;
