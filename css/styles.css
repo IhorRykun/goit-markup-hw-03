@@ -331,6 +331,11 @@ ul {
 
 /* сторінка портфоліо */
 
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 92px;
+}
+
 .visual-hidden {
   transform: scale(0);
   position: fixed;
@@ -341,6 +346,7 @@ ul {
 }
 
 .btn-portfolio {
+  padding: 6px 22px;
   Font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -355,24 +361,12 @@ ul {
 
 .portfolio-container {
   display: block;
-  padding-bottom: 92px;
 }
 
 .list-itm-portfolio {
   display: flex;
   margin-bottom: 50px;
-  padding-top: 96px;
   justify-content: center;
-}
-
-.img-link {
-  padding-bottom: 112px;
-}
-
-.lst-portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .portfolio-batn {
@@ -416,13 +410,28 @@ ul {
   background-color: var(--white-cl);
 }
 
+/* .lst-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lst-portfolio-itmm {
+  margin: 30px 30px;
+} */
+
+.div-description {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  border: 1px solid #EEEEEE;
+}
+
 .lst-paragraph {
   padding-left: 24px;
-  margin-bottom: 50px;
   font-size: 16px;
   line-height: 1.88;
 }
-
 
 /* футер */
 .footer {
@@ -458,4 +467,8 @@ ul {
 .container-footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.img-link a {
+  padding: 0;
 }
