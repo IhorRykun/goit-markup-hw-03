@@ -234,11 +234,14 @@ ul {
   display: flex;
 }
 
+.container-specifc {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list-item {
   display: block;
   width: 270px;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .list-specific .list-item+.list-item {
