@@ -234,9 +234,10 @@ ul {
   display: flex;
 }
 
-.container-specifc {
+.section-specifics {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--white-cl);
 }
 
 .list-item {
@@ -250,8 +251,9 @@ ul {
 
 /* Наші послуги */
 
-.container-poslygi {
+.section-poslygi {
   padding-bottom: 94px;
+  background-color: var(--white-cl);
 }
 
 .poslygi-title {
@@ -266,7 +268,7 @@ ul {
 
 /* наша команда */
 
-.container-tim {
+.section-tim {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -312,8 +314,8 @@ ul {
 }
 
 .tim-title {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* футер */
@@ -391,8 +393,6 @@ ul {
 }
 
 .lst-portfolio-title {
-  margin-top: 20px;
-  padding-left: 24px;
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
@@ -424,16 +424,11 @@ ul {
 }
 
 .div-description {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-right: 24px;
+  padding: 24px 20px;
   border: 1px solid #EEEEEE;
 }
 
 .lst-paragraph {
-  padding-left: 24px;
-  font-size: 16px;
   line-height: 1.88;
 }
 
